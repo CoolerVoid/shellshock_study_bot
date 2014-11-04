@@ -2,7 +2,7 @@
 # simple tcp server by Cooler_
  use Socket;
 
- $server_port="41038";
+ $server_port="51038";
  print "\nStart TCP Listening server\n";
  socket(SERVER, PF_INET, SOCK_STREAM, getprotobyname('tcp'));
  setsockopt(SERVER, SOL_SOCKET, SO_REUSEADDR, 1);
